@@ -1,0 +1,62 @@
+{
+  "name": "voluptatumvelit",
+  "version": "1.0.0",
+  "description": "Library to help create simple typescript transformers",
+  "keywords": [
+    "dolores",
+    "transform",
+    "facilis",
+    "dolores"
+  ],
+  "homepage": "https://github.com/TerrillFriesen/voluptatumvelit.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TerrillFriesen/voluptatumvelit.git"
+  },
+  "license": "MIT",
+  "author": "KoryBradtke",
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist/**",
+    "!dist/__test__/**",
+    "!dist/**/*.spec.*",
+    "!dist/**/*.map"
+  ],
+  "devDependencies": {
+    "@istanbuljs/nyc-config-typescript": "1.0.2",
+    "@types/chai": "4.3.3",
+    "@types/mocha": "9.1.1",
+    "@types/node": "18.7.16",
+    "@typescript-eslint/eslint-plugin": "5.36.2",
+    "@typescript-eslint/parser": "5.36.2",
+    "chai": "4.3.6",
+    "depcheck": "1.4.3",
+    "eslint": "8.23.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsdoc": "39.3.6",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "mocha": "10.0.0",
+    "nyc": "15.1.0",
+    "onchange": "7.1.0",
+    "pm-exec": "1.0.0",
+    "prettier": "2.7.1",
+    "rimraf": "3.0.2",
+    "source-map-support": "0.5.21",
+    "ts-node": "10.9.1",
+    "ts-transform-test-compiler": "1.2.0",
+    "typescript": "4.8.3"
+  },
+  "peerDependencies": {
+    "typescript": "^4.8.3"
+  },
+  "engines": {
+    "node": ">=16.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/TerrillFriesen/voluptatumvelit.git/issues"
+  }
+}
